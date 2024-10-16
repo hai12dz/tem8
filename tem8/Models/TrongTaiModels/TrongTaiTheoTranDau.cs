@@ -9,6 +9,7 @@
         public int? SoNamKinhNghiem { get; set; }
         public string? QueHuong { get; set; }
         public DateOnly? NgaySinh { get; set; }
+        public string TrongTaiId { get; set; } = null!;
 
     }
 }

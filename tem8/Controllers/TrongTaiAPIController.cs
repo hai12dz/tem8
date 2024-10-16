@@ -29,7 +29,8 @@ namespace tem8.Controllers
                              Anh=p.Anh,
                              NgaySinh=p.NgaySinh,
                              QueHuong = p.QueHuong,
-                             SoNamKinhNghiem=p.SoNamKinhNghiem
+                             SoNamKinhNghiem=p.SoNamKinhNghiem,
+                             TrongTaiId = p.TrongTaiId
                            }).ToList();
           
             return trongtais;

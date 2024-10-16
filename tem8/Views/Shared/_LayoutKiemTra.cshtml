@@ -21,11 +21,22 @@
 
         <partial name="Header"/>
         <div id="main_content">
-            <div id="menu_tab">
-                <div class="left_menu_corner"></div>
-             
 
+
+            <div id="menu_tab">
+                @RenderSection("menu",true)
+
+            </div>
+
+            <div id="menu_tab" class="abcd">
+                <div id="left_menu_corner" class="left_menu_corner">
+
+                </div>
+
+
+                
                 @RenderBody()
+               
 
 
                 <div class="right_menu_corner"></div>
@@ -36,7 +47,10 @@
         
 
 
-            <div id="displayTrongTais" class="center_content"></div>
+            <div id="display" class="center_content">
+
+
+            </div>
 
             <!-- end of center content -->
            

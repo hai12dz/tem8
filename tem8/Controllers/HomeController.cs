@@ -34,6 +34,8 @@ namespace tem8.Controllers
 
         }
         [HttpGet]
+            [Route("Edit")]
+
         public IActionResult Edit(string? id)
         {
 
@@ -43,6 +45,8 @@ namespace tem8.Controllers
 
         }
         [HttpPost]
+        [Route("Edit")]
+
         public IActionResult Edit(Trongtai trongtai)
         {
 
