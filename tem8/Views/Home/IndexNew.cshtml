@@ -1,0 +1,156 @@
+﻿@model List<Trandau>
+
+
+
+
+
+<ul class="menu">
+
+
+    @foreach (var item in Model)
+    {
+        // <li><a href="#" class="nav1"> @item.TranDauId</a></li>
+        var getUrl = "https://localhost:7271/api/trongtaiapi/" + @item.TranDauId;
+        <li> <a onclick="showTrongTaiTheoMaTranDau('@getUrl')">@item.TranDauId</a></li>
+        
+
+
+    }
+</ul>
+
+@{
+    ViewData["Title"] = "IndexNew";
+    Layout = "~/Views/Shared/_LayoutKiemTra.cshtml";
+
+}
+
+<h1>IndexNew</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table style="margin: auto;" class="table">
+    <thead>
+        <tr>
+            <th>
+                Họ và tên
+            </th>
+            <th>
+                Ngày sinh
+
+            </th>
+            <th>
+                Quê hương
+
+            </th>
+         
+            <th>
+
+                Số năm kinh nghiệm
+            </th>
+            <th>
+                Ảnh
+
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewBag.lsttrongtai) {
+        <tr>
+            <td>
+                @item.HoVaTen
+            </td>
+            <td>
+                @item.NgaySinh
+            </td>
+            <td>
+                @item.QueHuong
+            </td>
+           
+            <td>
+                @item.SoNamKinhNghiem
+            </td>
+            <td>
+                    <img src="@Url.Content("../images/" + item.Anh)" style="width:200px; height:auto;" alt="Product Image"  />
+
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TrongTaiId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TrongTaiId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TrongTaiId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+
+<script>
+    function showTrongTaiTheoMaTranDau(getUrl) {
+        console.log('Fetching from URL:', getUrl); // Kiểm tra URL
+        $.ajax({
+            url: getUrl,
+            method: 'GET',
+            success: function (data) {
+                console.log('Data received:', data); // Kiểm tra dữ liệu
+                if (!data) {
+                    throw new Error('Data is null or undefined');
+                }
+                let str = '';
+
+
+                if (Array.isArray(data) && data.length > 0) {
+                    let str = '<p><a href="/Controller/Create">Create New</a></p>';
+                    str += '<table style="margin: auto;" class="table">';
+                    str += '<thead>';
+                    str += '<tr>';
+                    str += '<th>Họ và tên</th>';
+                    str += '<th>Ngày sinh</th>';
+                    str += '<th>Quê hương</th>';
+                    str += '<th>Số năm kinh nghiệm</th>';
+                    str += '<th>Ảnh</th>';
+                    str += '<th>Actions</th>';
+                    str += '</tr>';
+                    str += '</thead>';
+                    str += '<tbody>';
+
+                    data.forEach(function (item) {
+                        console.log('Processing item:', item); // Kiểm tra từng item
+                        str += '<tr>';
+
+
+                        str += '<td>' + (item.hoVaTen || 'Chưa có tên') + '</td>';
+                        str += '<td>' + (item.ngaySinh || 'Chưa có ngày sinh') + '</td>';
+                        str += '<td>' + (item.queHuong || 'Chưa có quê hương') + '</td>'; // Thêm cột Quê hương
+                        str += '<td>' + (item.soNamKinhNghiem || 'Chưa có kinh nghiệm') + '</td>';
+                        str += '<td><img src="../images/' + (item.anh.trim() || 'default-image.jpg') + '" style="width:200px; height:auto;" alt="Product Image" /></td>';
+                        str += '<td>';
+                        str += '<a href="/Controller/Edit?id=' + item.trongTaiId + '">Edit</a> | ';
+                        str += '<a href="/Controller/Details?id=' + item.trongTaiId + '">Details</a> | ';
+                        str += '<a href="/Controller/Delete?id=' + item.trongTaiId + '">Delete</a>';
+                        str += '</td>';
+                        str += '</tr>';
+                    });
+
+                    str += '</tbody>';
+                    str += '</table>';
+                    document.getElementById('displayTrongTais').innerHTML = str; // Cập nhật nội dung phần tử
+                } else {
+                    document.getElementById('displayTrongTais').innerHTML = '<p>No data available.</p>';
+                }
+
+                document.getElementById('displayTrongTais').innerHTML = str;
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                alert('Error: ' + textStatus + ' - ' + errorThrown);
+            }
+        });
+    }
+</script>
+
+
+
+

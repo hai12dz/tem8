@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|e:\\zalo\\ltweb\\kiemtra\\tem8\\tem8\\views\\home\\indexnew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|solutionrelative:tem8\\views\\home\\indexnew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|e:\\zalo\\ltweb\\kiemtra\\tem8\\tem8\\models\\trongtaimodels\\trongtaitheotrandau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|solutionrelative:tem8\\models\\trongtaimodels\\trongtaitheotrandau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|e:\\zalo\\ltweb\\kiemtra\\tem8\\tem8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|solutionrelative:tem8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|e:\\zalo\\ltweb\\kiemtra\\tem8\\tem8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|solutionrelative:tem8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|e:\\zalo\\ltweb\\kiemtra\\tem8\\tem8\\views\\shared\\_layoutkiemtra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|solutionrelative:tem8\\views\\shared\\_layoutkiemtra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|e:\\zalo\\ltweb\\kiemtra\\tem8\\tem8\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|solutionrelative:tem8\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|e:\\zalo\\ltweb\\kiemtra\\tem8\\tem8\\controllers\\trongtaiapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|solutionrelative:tem8\\controllers\\trongtaiapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|e:\\zalo\\ltweb\\kiemtra\\tem8\\tem8\\models\\trongtai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|solutionrelative:tem8\\models\\trongtai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|e:\\zalo\\ltweb\\kiemtra\\tem8\\tem8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B114A6-7D98-41C9-9BA0-19DFCF1A5571}|tem8\\tem8.csproj|solutionrelative:tem8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "tem8\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "tem8\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T05:18:32.297Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "tem8\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "tem8\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T05:18:35.3Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LayoutKiemTra.cshtml",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Views\\Shared\\_LayoutKiemTra.cshtml",
+              "RelativeDocumentMoniker": "tem8\\Views\\Shared\\_LayoutKiemTra.cshtml",
+              "ToolTip": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Views\\Shared\\_LayoutKiemTra.cshtml",
+              "RelativeToolTip": "tem8\\Views\\Shared\\_LayoutKiemTra.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T05:15:37.138Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "tem8\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "tem8\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:50:56.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IndexNew.cshtml",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Views\\Home\\IndexNew.cshtml",
+              "RelativeDocumentMoniker": "tem8\\Views\\Home\\IndexNew.cshtml",
+              "ToolTip": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Views\\Home\\IndexNew.cshtml",
+              "RelativeToolTip": "tem8\\Views\\Home\\IndexNew.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAmwH8AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:07:38.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TrongTaiAPIController.cs",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Controllers\\TrongTaiAPIController.cs",
+              "RelativeDocumentMoniker": "tem8\\Controllers\\TrongTaiAPIController.cs",
+              "ToolTip": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Controllers\\TrongTaiAPIController.cs",
+              "RelativeToolTip": "tem8\\Controllers\\TrongTaiAPIController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T05:45:20.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Trongtai.cs",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Models\\Trongtai.cs",
+              "RelativeDocumentMoniker": "tem8\\Models\\Trongtai.cs",
+              "ToolTip": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Models\\Trongtai.cs",
+              "RelativeToolTip": "tem8\\Models\\Trongtai.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T05:35:34.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrongTaiTheoTranDau.cs",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Models\\TrongTaiModels\\TrongTaiTheoTranDau.cs",
+              "RelativeDocumentMoniker": "tem8\\Models\\TrongTaiModels\\TrongTaiTheoTranDau.cs",
+              "ToolTip": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Models\\TrongTaiModels\\TrongTaiTheoTranDau.cs",
+              "RelativeToolTip": "tem8\\Models\\TrongTaiModels\\TrongTaiTheoTranDau.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T05:44:21.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Program.cs",
+              "RelativeDocumentMoniker": "tem8\\Program.cs",
+              "ToolTip": "E:\\zalo\\ltweb\\Kiemtra\\tem8\\tem8\\Program.cs",
+              "RelativeToolTip": "tem8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:09:46.398Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

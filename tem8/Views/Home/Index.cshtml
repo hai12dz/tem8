@@ -1,0 +1,120 @@
+﻿@model List<Trandau>
+
+
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+
+<ul class="menu">
+
+
+    @foreach (var item in Model)
+    {
+       // <li><a href="#" class="nav1"> @item.TranDauId</a></li>
+        var getUrl = "https://localhost:7271/api/trongtaiapi/" + @item.TranDauId;
+        <li> <a  onclick="showTrongTaiTheoMaTranDau('@getUrl')">@item.TranDauId</a></li>
+
+      
+
+    }
+</ul>
+
+
+
+
+
+
+
+
+
+
+@section DanhSachTrongTai{
+
+    <div class="center_title_bar">Latest Products</div>
+
+
+    @foreach(var item in ViewBag.DanhSachTrongTai)
+    {
+
+        <div class="prod_box">
+            <div class="top_prod_box"></div>
+            <div class="center_prod_box">
+                <div class="product_title"><a href="details.html">@item.HoVaTen</a></div>
+                <div class="product_img">
+
+                    <a href="details.html">  
+                        <img src="@Url.Content("../images/" + item.Anh)" width="173" height="102" alt="Product Image" />
+
+                    </a>
+                    
+                </div>
+                <div class="prod_price"><span class="reduce">350$</span> <span class="price">@item.QuocTich</span></div>
+            </div>
+            <div class="bottom_prod_box"></div>
+            <div class="prod_details_tab"> <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="../Tem/images/cart.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="Tem/images/favs.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="Tem/images/favorites.gif" alt="" border="0" class="left_bt" /></a> <a href="details.html" class="prod_details">details</a> </div>
+        </div>
+
+
+
+        
+    }
+    
+
+}
+
+
+<script>
+    function showTrongTaiTheoMaTranDau(getUrl) {
+        console.log('Fetching from URL:', getUrl); // Kiểm tra URL
+        $.ajax({
+            url: getUrl,
+            method: 'GET',
+            success: function (data) {
+                console.log('Data received:', data); // Kiểm tra dữ liệu
+                if (!data) {
+                    throw new Error('Data is null or undefined');
+                }
+                let str = '';
+                if (Array.isArray(data) && data.length > 0) {
+                    data.forEach(val => {
+                        console.log('Player:', val); // Log chi tiết từng cầu thủ
+
+
+
+                        str += '<div class="center_title_bar">Latest Products</div>';
+
+
+
+                        str += '<div class="prod_box">';
+                        str += '<div class="top_prod_box"></div>';
+                        str += '<div class="center_prod_box">';
+                        str += '<div class="product_title"><a href="details.html">'+val.hoVaTen+'</a></div>';
+                        str += '<div class="product_img"><a href="details.html">';
+
+                        str += '<img src="../images/' + (val.anh ? val.anh : 'default-image.jpg') + '" alt="" />';
+
+                        str += '<div class="prod_price"><span class="reduce">350$</span> <span class="price">val.quocTich</span></div>';
+                        str += '</div >';
+                        str += '<div class="bottom_prod_box"></div>';
+                        str += '<div class="prod_details_tab"> <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="../Tem/images/cart.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="Tem/images/favs.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="Tem/images/favorites.gif" alt="" border="0" class="left_bt" /></a> <a href="details.html" class="prod_details">details</a> </div>';
+                        str += '</div >';
+
+
+
+
+
+
+                        });
+                } else {
+                    str = '<p>No data available.</p>';
+                }
+                document.getElementById('displayTrongTais').innerHTML = str;
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                alert('Error: ' + textStatus + ' - ' + errorThrown);
+            }
+        });
+    }
+</script>
